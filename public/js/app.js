@@ -5,51 +5,50 @@ const products = [
   {
     id: 1,
     title: "Brioni",
-    price: 500,
     colors: [
       {
         code: "black",
-        img: "./img2/air.png",
+        img: "./img/abrigos/02.jpg",
       },
     ],
   },
   {
     id: 2,
     title: "Tom Ford",
-    price: 300,
+    //price: 300,
     colors: [
       {
         code: "lightgray",
-        img: "./img2/jordan.png",
+        img: "./img/abrigos/01.jpg",
       },
     ],
   },
   {
     id: 3,
     title: "REISS",
-    price: 200,
+    //price: 200,
     colors: [
       {
         code: "lightgray",
-        img: "./img2/blazer.png",
+        img: "./img/abrigos/03.jpg",
       },
     ],
   },
   {
     id: 4,
     title: "Burberry",
-    price: 300,
+    //price: 300,
     colors: [
       {
         code: "black",
-        img: "./img2/crater.png",
+        img: "./img/abrigos/05.jpg",
       },
     ],
   },
   {
     id: 5,
     title: "Zegna",
-    price: 400,
+   // price: 400,
     colors: [
       {
         code: "gray",

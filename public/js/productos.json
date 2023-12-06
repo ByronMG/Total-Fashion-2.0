@@ -1,182 +1,462 @@
 [
     {
         "id": "abrigo-01",
-        "titulo": "Abrigo 01",
+        "titulo": "ABRIGO CON BOTONES DE MARFIL VEGETAL",
         "imagen": "./img/abrigos/01.jpg",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 5000
+        "precio": 399.00
     },
     {
         "id": "abrigo-02",
-        "titulo": "Abrigo 02",
+        "titulo": "ABRIGO SLIM FIT EN LANA VIRGEN",
         "imagen": "./img/abrigos/02.jpg",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 499.00
     },
     {
         "id": "abrigo-03",
-        "titulo": "Abrigo 03",
+        "titulo": "ABRIGO CRUZADO EN MEZCLA DE LANA",
         "imagen": "./img/abrigos/03.jpg",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 899.00
     },
     {
         "id": "abrigo-04",
-        "titulo": "Abrigo 04",
+        "titulo": "GABARDINA REPELENTE AL AGUA CON CINTURÓN",
         "imagen": "./img/abrigos/04.jpg",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 599.00
     },
     {
         "id": "abrigo-05",
-        "titulo": "Abrigo 05",
+        "titulo": "ABRIGO CON CAPUCHA RELAXED FIT",
         "imagen": "./img/abrigos/05.jpg",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 349.00
     },
     {
-        "id": "camiseta-01",
-        "titulo": "Camiseta 01",
-        "imagen": "./img/camisetas/01.jpg",
+        "id": "abrigo-06",
+        "titulo": "ABRIGO SLIM FIT CON CREMALLERA ",
+        "imagen": "./img/abrigos/06.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Abrigos",
+            "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 539.00
     },
     {
-        "id": "camiseta-02",
-        "titulo": "Camiseta 02",
-        "imagen": "./img/camisetas/02.jpg",
+        "id": "abrigo-07",
+        "titulo": "ABRIGO REGULAR FIT EN MEZCLA DE LANA CON CUELLO ",
+        "imagen": "./img/abrigos/07.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Abrigos",
+            "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 899.00
     },
     {
-        "id": "camiseta-03",
-        "titulo": "Camiseta 03",
-        "imagen": "./img/camisetas/03.jpg",
+        "id": "abrigo-08",
+        "titulo": "ABRIGO CRUZADO SLIM FIT DE SARGA",
+        "imagen": "./img/abrigos/08.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Abrigos",
+            "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 399.00
     },
     {
-        "id": "camiseta-04",
-        "titulo": "Camiseta 04",
-        "imagen": "./img/camisetas/04.jpg",
+        "id": "abrigo-09",
+        "titulo": "ABRIGO CRUZADO SLIM FIT DE MEZCLA DE LANA",
+        "imagen": "./img/abrigos/09.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Abrigos",
+            "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 599.00
     },
     {
-        "id": "camiseta-05",
-        "titulo": "Camiseta 05",
-        "imagen": "./img/camisetas/05.jpg",
+        "id": "abrigo-10",
+        "titulo": "ABRIGO REPELENTE AL AGUA CON CAPUCHA ",
+        "imagen": "./img/abrigos/10.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Abrigos",
+            "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 399.00
     },
     {
-        "id": "camiseta-06",
-        "titulo": "Camiseta 06",
-        "imagen": "./img/camisetas/06.jpg",
+        "id": "camisa-01",
+        "titulo": "CAMISA SLIM FIT CON CUELLO ALZADO ",
+        "imagen": "./img/camisas/01.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "camisas",
+            "id": "camisas"
         },
-        "precio": 1000
+        "precio": 139.95
     },
     {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/camisetas/07.jpg",
+        "id": "camisa-02",
+        "titulo": "CAMISA SLIM FIT DE POPELÍN CON ELÁSTICO",
+        "imagen": "./img/camisas/02.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "camisas",
+            "id": "camisas"
         },
-        "precio": 1000
+        "precio": 199.95
     },
     {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 08",
-        "imagen": "./img/camisetas/08.jpg",
+        "id": "camisa-03",
+        "titulo": "CAMISA REGULAR FIT DE TEJIDO ELÁSTICO ",
+        "imagen": "./img/camisas/03.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "camisas",
+            "id": "camisas"
         },
-        "precio": 1000
+        "precio": 129.95
+    },
+    {
+        "id": "camisa-04",
+        "titulo": "CAMISA SLIM FIT EN SARGA DE ALGODÓN ",
+        "imagen": "./img/camisas/04.jpg",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 199.95
+    },
+    {
+        "id": "camisa-05",
+        "titulo": "CAMISA SLIM FIT DE TEJIDO ELÁSTICO ",
+        "imagen": "./img/camisas/05.jpg",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 109.95
+    },
+    {
+        "id": "camisa-06",
+        "titulo": "CAMISA REGULAR FIT EN POPELÍN DE ALGODÓN ",
+        "imagen": "./img/camisas/06.jpg",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 99.95
+    },
+    {
+        "id": "camisa-07",
+        "titulo": "CAMISA SLIM FIT DE SARGA ",
+        "imagen": "./img/camisas/07.jpg",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 99.95
+    },
+    {
+        "id": "camisa-08",
+        "titulo": "CAMISA REGULAR FIT EN POPELÍN DE ALGODÓN ",
+        "imagen": "./img/camisas/08.jpg",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 89.85
+    },
+    {
+        "id": "camisa-09",
+        "titulo": "CAMISA SLIM FIT DE SARGA DE MEZCLA DE ALGODÓN",
+        "imagen": "./img/camisas/09.jpg",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 89.00
+    },
+    {
+        "id": "camisa-10",
+        "titulo": "CAMISA SLIM FIT EN PUNTO DE ELÁSTICO ",
+        "imagen": "./img/camisas/10.jpg",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 99.95
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "PANTALONES SLIM FIT EN LANA VIRGEN",
         "imagen": "./img/pantalones/01.jpg",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 209.95
     },
     {
         "id": "pantalon-02",
-        "titulo": "Pantalón 02",
+        "titulo": "PANTALONES SLIM FIT EN TEJIDO LAVABLE",
         "imagen": "./img/pantalones/02.jpg",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 169.95
     },
     {
         "id": "pantalon-03",
-        "titulo": "Pantalón 03",
+        "titulo": "PANTALONES REGULAR FIT DE TIRO MEDIO",
         "imagen": "./img/pantalones/03.jpg",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 149.95
     },
     {
         "id": "pantalon-04",
-        "titulo": "Pantalón 04",
+        "titulo": "PANTALONES SLIM FIT DE TEJIDO ELÁSTICO",
         "imagen": "./img/pantalones/04.jpg",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 149.95
     },
     {
         "id": "pantalon-05",
-        "titulo": "Pantalón 05",
+        "titulo": "PANTALONES DE ESMOQUIN SLIM FIT",
         "imagen": "./img/pantalones/05.jpg",
         "categoria": {
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 199.95
+    },
+    {
+        "id": "pantalon-06",
+        "titulo": "PANTALONES SLIM FIT DE ALGODÓN",
+        "imagen": "./img/pantalones/06.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 139.95
+    },
+    {
+        "id": "pantalon-07",
+        "titulo": "PANTALONES RELAXED FIT EN LANA VIRGEN",
+        "imagen": "./img/pantalones/07.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 299.95
+    },
+    {
+        "id": "pantalon-08",
+        "titulo": "PANTALONES SLIM FIT EN PUNTO INTERLOCK",
+        "imagen": "./img/pantalones/08.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 179.95
+    },
+    {
+        "id": "pantalon-09",
+        "titulo": "PANTALONES RELAXED FIT DE CASHMERE",
+        "imagen": "./img/pantalones/09.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 799.99
+    },
+    {
+        "id": "pantalon-10",
+        "titulo": "PANTALONES RELAXED FIT DE PAÑO ELÁSTICO",
+        "imagen": "./img/pantalones/10.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 249.99
+    },
+    {
+        "id": "corbata-01",
+        "titulo": "CORBATA DE MEZCLA DE SEDA",
+        "imagen": "./img/corbatas/01.jpg",
+        "categoria": {
+            "nombre": "Corbatas",
+            "id": "corbatas"
+        },
+        "precio": 69.95
+    },
+    {
+        "id": "corbata-02",
+        "titulo": "CORBATA DE SEDA CON MICROESTAMPADO",
+        "imagen": "./img/corbatas/02.jpg",
+        "categoria": {
+            "nombre": "Corbatas",
+            "id": "corbatas"
+        },
+        "precio": 99.95
+    },
+    {
+        "id": "corbata-03",
+        "titulo": "CORBATA CON MICROESTRUCTURA",
+        "imagen": "./img/corbatas/03.jpg",
+        "categoria": {
+            "nombre": "Corbatas",
+            "id": "corbatas"
+        },
+        "precio": 69.95
+    },
+    {
+        "id": "corbata-04",
+        "titulo": "CORBATA DE PUNTO DE SEDA",
+        "imagen": "./img/corbatas/04.jpg",
+        "categoria": {
+            "nombre": "Corbatas",
+            "id": "corbatas"
+        },
+        "precio": 129.95
+    },
+    {
+        "id": "corbata-05",
+        "titulo": "CORBATA DE SEDA CON MOTIVO INTEGRAL ",
+        "imagen": "./img/corbatas/05.jpg",
+        "categoria": {
+            "nombre": "Corbatas",
+            "id": "corbatas"
+        },
+        "precio": 49.95
+    },
+    {
+        "id": "corbata-06",
+        "titulo": "CORBATA DE JACQUARD EN SEDA",
+        "imagen": "./img/corbatas/06.jpg",
+        "categoria": {
+            "nombre": "Corbatas",
+            "id": "corbatas"
+        },
+        "precio": 29.35
+    },
+    {
+        "id": "corbata-07",
+        "titulo": "CORBATA EN MEZCLA DE SEDA CON RAYAS",
+        "imagen": "./img/corbatas/07.jpg",
+        "categoria": {
+            "nombre": "Corbatas",
+            "id": "corbatas"
+        },
+        "precio": 59.95
+    },
+    {
+        "id": "corbata-08",
+        "titulo": "CORBATA FORMAL EN JACQUARD DE SEDA",
+        "imagen": "./img/corbatas/08.jpg",
+        "categoria": {
+            "nombre": "Corbatas",
+            "id": "corbatas"
+        },
+        "precio": 89.95
+    },
+    {
+        "id": "zapato-01",
+        "titulo": "ZAPATOS DERBY DE PIEL CON SUELA DE GOMA",
+        "imagen": "./img/zapatos/01.jpg",
+        "categoria": {
+            "nombre": "Zapatos",
+            "id": "zapatos"
+        },
+        "precio": 249.95
+    },
+    {
+        "id": "zapato-02",
+        "titulo": "ZAPATOS DE PIEL OXFORD CON FORRO DE PIEL",
+        "imagen": "./img/zapatos/03.jpg",
+        "categoria": {
+            "nombre": "Zapatos",
+            "id": "zapatos"
+        },
+        "precio": 449.95
+    },
+    {
+        "id": "zapato-03",
+        "titulo": "ZAPATOS DERBY DE PIEL",
+        "imagen": "./img/zapatos/03.jpg",
+        "categoria": {
+            "nombre": "Zapatos",
+            "id": "zapatos"
+        },
+        "precio": 335.95
+    },
+    {
+        "id": "zapato-04",
+        "titulo": "ZAPATOS DERBY DE PIEL CON LOGO GRABADO",
+        "imagen": "./img/zapatos/04.jpg",
+        "categoria": {
+            "nombre": "Zapatos",
+            "id": "zapatos"
+        },
+        "precio": 599.95
+    },
+    {
+        "id": "zapato-05",
+        "titulo": "ZAPATOS OXFORD DE CHAROL",
+        "imagen": "./img/zapatos/05.jpg",
+        "categoria": {
+            "nombre": "Zapatos",
+            "id": "zapatos"
+        },
+        "precio": 389.95
+    },
+    {
+        "id": "zapato-06",
+        "titulo": "ZAPATOS DERBY EN PIEL CON SUELA DE GOMA",
+        "imagen": "./img/zapatos/06.jpg",
+        "categoria": {
+            "nombre": "Zapatos",
+            "id": "zapatos"
+        },
+        "precio": 299.95
+    },
+    {
+        "id": "zapato-07",
+        "titulo": "ZAPATOS DERBY DE PIEL CON FORRO DE PIEL",
+        "imagen": "./img/zapatos/07.jpg",
+        "categoria": {
+            "nombre": "Zapatos",
+            "id": "zapatos"
+        },
+        "precio": 270.95
+    },
+    {
+        "id": "zapato-08",
+        "titulo": "ZAPATOS DERBY DE PIEL CON DETALLES BUDAPEST",
+        "imagen": "./img/zapatos/08.jpg",
+        "categoria": {
+            "nombre": "Zapatos",
+            "id": "zapatos"
+        },
+        "precio": 230.95
     }
 ]
