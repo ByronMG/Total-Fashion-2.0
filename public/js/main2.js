@@ -58,6 +58,7 @@ botonesCategorias.forEach(boton => {
     })
 });
 
+//Agregar funcion cambioos
 function actualizarBotonesAgregar() {
     botonesAgregar = document.querySelectorAll(".producto-agregar");
 
@@ -76,44 +77,53 @@ if (productosEnCarritoLS) {
 } else {
     productosEnCarrito = [];
 }
-
+// Agregar al Carrito
 function agregarAlCarrito(e) {
-
-    Toastify({
-        text: "Producto agregado",
-        duration: 3000,
-        close: true,
-        gravity: "top",
-        position: "right",
-        stopOnFocus: true, 
-        style: {
-          background: "linear-gradient(to right, #D42D2D, #D42D2D)",
-          borderRadius: "2rem",
-          textTransform: "uppercase",
-          fontSize: ".75rem"
-        },
-        offset: {
-            x: '1.5rem', 
-            y: '1.5rem'
-          },
-        onClick: function(){}
-      }).showToast();
-
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
 
-    if(productosEnCarrito.some(producto => producto.id === idBoton)) {
-        const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
-        productosEnCarrito[index].cantidad++;
+    if (productoAgregado.stock > 0) {
+        productoAgregado.stock--;
+
+        // Actualizar la interfaz de usuario
+        cargarProductos(productos);
+
+        // Mostrar un mensaje de éxito
+        Toastify({
+            text: "Producto agregado",
+            duration: 3000,
+            close: true,
+            gravity: "top",
+            position: "right",
+            stopOnFocus: true,
+            style: {
+                background: "linear-gradient(to right, #2DD42D, #2DD42D)",
+                borderRadius: "2rem",
+                textTransform: "uppercase",
+                fontSize: ".75rem"
+            },
+            offset: {
+                x: '1.5rem',
+                y: '1.5rem'
+            },
+            onClick: function () { }
+        }).showToast();
+
+        if (productosEnCarrito.some(producto => producto.id === idBoton)) {
+            const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
+            productosEnCarrito[index].cantidad++;
+        } else {
+            productoAgregado.cantidad = 1;
+            productosEnCarrito.push(productoAgregado);
+        }
+        actualizarNumerito();
+
+        localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
     } else {
-        productoAgregado.cantidad = 1;
-        productosEnCarrito.push(productoAgregado);
+        alert("Lo siento producto agotado de stock");
     }
-
-    actualizarNumerito();
-
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 }
+
 
 function actualizarNumerito() {
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
