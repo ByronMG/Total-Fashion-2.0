@@ -24,7 +24,9 @@
                 <i class="bi bi-x"></i>
             </button>
             <header>
-                <h1 class="logo">Total Fashion</h1>
+            <div class="logo1">
+                <img src="./img2/logo1.jpg" alt="">
+            </div>
             </header>
             <nav>
                 <ul class="menu">
@@ -50,6 +52,9 @@
                         <a class="boton-menu boton-carrito" href="./carrito.html">
                             <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
                         </a>
+                        <a class="boton-menu boton-volver" href="./index.html">
+                            <i class="bi bi-arrow-return-left"></i> Volver
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -63,8 +68,8 @@
                         </div>
                     </div>
                 </form>
-                <button class="btn btn-secondary" onclick="ordenar_a_Z()">ordenar a-Z</button>
-                <button class="btn btn-secondary" onclick="ordenar_Z_a()">ordenar Z-a</button>
+                <button class="btn btn-secondary" onclick="ordenar_a_Z()">Mejores Precios Bajos</button>
+                <button class="btn btn-secondary" onclick="ordenar_Z_a()">Mejores Precios Caros</button>
                 <button type="submit" class="btn btn-secondary" onclick="filtrar()">Buscar</button>
             </div>
             
@@ -73,7 +78,8 @@
         </main>
         <a href="./promociones.html" class="floating-button">
             <i class="bi bi-gift-fill"></i> Promociones
-        </a> 
+        </a>
+        
     </div>
     
     <script src="./js/main.js"></script>

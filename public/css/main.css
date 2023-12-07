@@ -28,6 +28,11 @@ a {
     text-decoration: none;
 }
 
+.logo1 img{
+    width: 95%;
+    border-radius: 50%;
+}
+
 /*Boton*/
   .container {
     position: relative;
