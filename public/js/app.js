@@ -8,7 +8,7 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/abrigos/02.jpg",
+        img: "./img/abrigos/01.jpg",
       },
     ],
   },
@@ -19,7 +19,7 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./img/abrigos/01.jpg",
+        img: "./img/abrigos/02.jpg",
       },
     ],
   },
@@ -41,7 +41,7 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/abrigos/05.jpg",
+        img: "./img/abrigos/04.jpg",
       },
     ],
   },
@@ -52,7 +52,7 @@ const products = [
     colors: [
       {
         code: "gray",
-        img: "./img2/hippie.png",
+        img: "./img/abrigos/05.jpg",
       },
     ],
   },
@@ -73,9 +73,8 @@ menuItems.forEach((item, index) => {
     choosenProduct = products[index];
 
     currentProductTitle.textContent = choosenProduct.title;
-    currentProductPrice.textContent = "$" + choosenProduct.price;
+    //currentProductPrice.textContent = "$" + choosenProduct.price;
     currentProductImg.src = choosenProduct.colors[0].img;
-
     currentProductColors.forEach((color, index) => {
       color.style.backgroundColor = choosenProduct.colors[index].code;
     });
