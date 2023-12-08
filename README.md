@@ -1,7 +1,7 @@
 # Total-Fashion-2.0
 
 <div style="text-align: center;">
-	<a href="https://imgbb.com/"><img src="https://i.ibb.co/5T8qQ1x/11.png" alt="11" border="0"></a>
+	<a><img src="https://i.ibb.co/5T8qQ1x/11.png" alt="11" border="0"></a>
 </div>
 
 Total Fashion es una plataforma de comercio electrónico especializada en la venta de moda para adultos jóvenes. Enfocada en brindar una experiencia de compra comoda y eficiente, destacándose por implementar diferentes características diseñadas para mejorar la satisfacción del usuario durante sus compras en línea.
